@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 5826961245772531032}
   - component: {fileID: 361289243908456753}
   - component: {fileID: 578474318948508809}
-  - component: {fileID: 1752920302}
+  - component: {fileID: 2402416987239411815}
+  - component: {fileID: 3614779272014426039}
   m_Layer: 0
   m_Name: 7-Tip-Star
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4663326047841810237}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.8639843, y: 1.9829476, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
@@ -98,7 +99,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1752920302
+--- !u!114 &2402416987239411815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,7 +108,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 4663326047841810237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33da74d0f80a9a47a8af31a868fc094, type: 3}
+  m_Script: {fileID: 11500000, guid: 51fe60aeadf3fe748a1caea1115686e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 4
+  targetPosition: {x: 0, y: -4, z: 0}
+  timeToMove: 2
+  Constraints:
+    FreezeX: 1
+    FreezeY: 0
+    FreezeZ: 1
+--- !u!114 &3614779272014426039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663326047841810237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5223ca5ccba4a4aafca9b5ffb6b64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyAudioObjectName: HitAudio
+  yPositionToDestroy: -4

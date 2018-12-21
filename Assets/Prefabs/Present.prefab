@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 3077135764890443503}
   - component: {fileID: 6847753333930821204}
   - component: {fileID: 175180337559490338}
+  - component: {fileID: 3276700641171353396}
   m_Layer: 0
   m_Name: Present
   m_TagString: Untagged
@@ -143,11 +144,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: -4, z: 0}
-  timeToMove: 120
+  timeToMove: 2
   Constraints:
     FreezeX: 1
     FreezeY: 0
     FreezeZ: 1
+--- !u!114 &3276700641171353396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223944477988178599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5223ca5ccba4a4aafca9b5ffb6b64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyAudioObjectName: HitAudio
+  yPositionToDestroy: -4
 --- !u!1 &8897222694597257447
 GameObject:
   m_ObjectHideFlags: 0
