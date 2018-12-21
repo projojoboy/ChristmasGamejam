@@ -20,7 +20,6 @@ public class Rythm : MonoBehaviour
 
 	private void NextBeat()
 	{
-		Debug.Log("TICK");
 		objectSpawner.SpawnObject();
 	}
 }
