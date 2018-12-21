@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 578474318948508809}
   - component: {fileID: 2402416987239411815}
   - component: {fileID: 3614779272014426039}
+  - component: {fileID: 8011236507006110755}
   m_Layer: 0
   m_Name: 7-Tip-Star
-  m_TagString: Untagged
+  m_TagString: CollectableObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,3 +132,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyAudioObjectName: HitAudio
   yPositionToDestroy: -4
+--- !u!64 &8011236507006110755
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663326047841810237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: f5a6c0d0e36d06d43ae038aa06fc0c22, type: 3}
