@@ -3,7 +3,8 @@
 public class Rythm : MonoBehaviour
 {
 	public int bpm;
-	public float timeToReachTarget = 2f;
+	public float secondsToReachTarget = 2f;
+	public ObjectSpawner objectSpawner;
 
 	private float _secondsPerBeat;
 
@@ -14,11 +15,12 @@ public class Rythm : MonoBehaviour
 
 	private void Start()
 	{
-		InvokeRepeating("NextBeat", 0f, _secondsPerBeat);
+		InvokeRepeating("NextBeat", secondsToReachTarget, _secondsPerBeat);
 	}
 
 	private void NextBeat()
 	{
-		Debug.Log("Tick");
+		Debug.Log("TICK");
+		objectSpawner.SpawnObject();
 	}
 }
