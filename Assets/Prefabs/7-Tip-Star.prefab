@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 361289243908456753}
   - component: {fileID: 578474318948508809}
   - component: {fileID: 2402416987239411815}
+  - component: {fileID: 3614779272014426039}
   m_Layer: 0
   m_Name: 7-Tip-Star
   m_TagString: Untagged
@@ -111,8 +112,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: -4, z: 0}
-  timeToMove: 120
+  timeToMove: 2
   Constraints:
     FreezeX: 1
     FreezeY: 0
     FreezeZ: 1
+--- !u!114 &3614779272014426039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663326047841810237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5223ca5ccba4a4aafca9b5ffb6b64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyAudioObjectName: HitAudio
+  yPositionToDestroy: -4
