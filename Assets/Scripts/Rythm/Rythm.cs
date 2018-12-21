@@ -3,6 +3,7 @@
 public class Rythm : MonoBehaviour
 {
 	public int bpm;
+	public float timeToReachTarget = 2f;
 
 	private float _secondsPerBeat;
 
