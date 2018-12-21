@@ -20,9 +20,9 @@ public class LerpMoveTo : MonoBehaviour
 		while(time < 1)
 		{
 			time += Time.deltaTime / timeToMove;
-			finalPosition.x = (Constraints.FreezeX) ? transform.position.x : Mathf.Lerp(startPosition.x, targetPosition.x, time);
-			finalPosition.y = (Constraints.FreezeY) ? transform.position.y : Mathf.Lerp(startPosition.y, targetPosition.y, time);
-			finalPosition.z = (Constraints.FreezeZ) ? transform.position.z : Mathf.Lerp(startPosition.z, targetPosition.z, time);
+			finalPosition.x = (Constraints.FreezeX) ? transform.position.x : Easing.Ease(EaseType.QuadIn, startPosition.x, targetPosition.x, time);
+			finalPosition.y = (Constraints.FreezeY) ? transform.position.y : Easing.Ease(EaseType.QuadIn, startPosition.y, targetPosition.y, time);
+			finalPosition.z = (Constraints.FreezeZ) ? transform.position.z : Easing.Ease(EaseType.QuadIn, startPosition.z, targetPosition.z, time);
 			transform.position = finalPosition;
 			yield return null;
 		}
