@@ -8,6 +8,7 @@ Shader "CatchThemBalls/Snow"
 		_DisplacementTex("Displacement", 2D) = "white" {}
 		_SnowTex("Snow texture", 2D) = "white" {}
 		_Speed ("Snow speed", Range(0.0001,5)) = 1
+		_Visiblity ("Snow Visiblity", Range(0.0001,5)) = 0.2
 	}
 	SubShader
 	{
@@ -46,6 +47,7 @@ Shader "CatchThemBalls/Snow"
 			sampler2D _SnowTex;
 			sampler2D _DisplacementTex;
 			float _Speed;
+			float _Visiblity;
 			
 			float4 frag (v2f i) : SV_Target
 			{
@@ -61,7 +63,7 @@ Shader "CatchThemBalls/Snow"
 				
 				float4 snowLayer = (depthSnow + snow);
 				
-				snowLayer = max(0, sign(snowLayer - 0.1)) * 0.1;
+				snowLayer = max(0, sign(snowLayer - 0.1)) * _Visiblity;
 				
 				col += snowLayer;
                 

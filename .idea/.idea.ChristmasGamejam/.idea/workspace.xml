@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9b0916-e1ad-4b8e-a3e5-1ae4ed63c46c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChristmasGamejam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChristmasGamejam/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnowLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnowLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shaders/Snow.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shaders/Snow.shader" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,26 +13,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SnowLayer.shader" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shaders/SnowLayer.shader">
+      <file leaf-file-name="Snow.shader" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shaders/Snow.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SnowLevel.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnowLevel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
-                <marker date="1545389120313" expanded="true" signature="6:78" ph="..." />
-                <marker date="1545389120313" expanded="true" signature="118:621" ph="{...}" />
-                <marker date="1545389120313" expanded="true" signature="334:619" ph="{...}" />
-                <marker date="1545389120313" expanded="true" signature="381:421" ph="{...}" />
-                <marker date="1545389120313" expanded="true" signature="527:613" ph="{...}" />
+                <marker date="1545390090093" expanded="true" signature="113:1507" ph="{...}" />
+                <marker date="1545390090093" expanded="true" signature="128:367" ph="{...}" />
+                <marker date="1545390090093" expanded="true" signature="380:1505" ph="{...}" />
+                <marker date="1545390090093" expanded="true" signature="452:1502" ph="{...}" />
+                <marker date="1545390090093" expanded="true" signature="466:1493" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,9 +44,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PostProcessing/SnowCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/Snow.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/SnowLayer.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnowLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/SnowLayer.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shaders/Snow.shader" />
       </list>
     </option>
   </component>
@@ -147,12 +137,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545382784945</updated>
-      <workItem from="1545382787629" duration="4599000" />
+      <workItem from="1545382787629" duration="5162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4599000" />
+    <option name="totallyTimeSpent" value="5162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -212,37 +202,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shaders/Snow.shader">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnowLevel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="216">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <marker date="1545387399382" expanded="true" signature="113:1424" ph="{...}" />
-            <marker date="1545387399382" expanded="true" signature="128:312" ph="{...}" />
-            <marker date="1545387399382" expanded="true" signature="325:1422" ph="{...}" />
-            <marker date="1545387399382" expanded="true" signature="397:1419" ph="{...}" />
-            <marker date="1545387399382" expanded="true" signature="411:1410" ph="{...}" />
+            <marker date="1545389120313" expanded="false" signature="6:78" ph="..." />
+            <marker date="1545389120313" expanded="true" signature="118:621" ph="{...}" />
+            <marker date="1545389120313" expanded="true" signature="334:619" ph="{...}" />
+            <marker date="1545389120313" expanded="true" signature="381:421" ph="{...}" />
+            <marker date="1545389120313" expanded="true" signature="527:613" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shaders/SnowLayer.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="162">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1545387399384" expanded="true" signature="104:1667" ph="{...}" />
+            <marker date="1545387399384" expanded="true" signature="118:477" ph="{...}" />
+            <marker date="1545387399384" expanded="true" signature="489:1645" ph="{...}" />
+            <marker date="1545387399384" expanded="true" signature="556:1637" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnowLevel.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shaders/Snow.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <marker date="1545389120313" expanded="true" signature="6:78" ph="..." />
-            <marker date="1545389120313" expanded="true" signature="118:621" ph="{...}" />
-            <marker date="1545389120313" expanded="true" signature="334:619" ph="{...}" />
-            <marker date="1545389120313" expanded="true" signature="381:421" ph="{...}" />
-            <marker date="1545389120313" expanded="true" signature="527:613" ph="{...}" />
+            <marker date="1545390090093" expanded="true" signature="113:1507" ph="{...}" />
+            <marker date="1545390090093" expanded="true" signature="128:367" ph="{...}" />
+            <marker date="1545390090093" expanded="true" signature="380:1505" ph="{...}" />
+            <marker date="1545390090093" expanded="true" signature="452:1502" ph="{...}" />
+            <marker date="1545390090093" expanded="true" signature="466:1493" ph="{...}" />
           </folding>
         </state>
       </provider>
