@@ -12,7 +12,7 @@ public class CameraShake : MonoBehaviour
     private Transform newPos;
     private bool shakeEnabled = false;
 
-    private void Start()
+    public void StartShake()
     {
         StartCoroutine(EnableShake());
     }
