@@ -19,6 +19,10 @@ public class DestroyAtPosition : MonoBehaviour
 		{
 			_destroyAudio.Play();
 			Destroy(gameObject);
+
+			CameraShake cameraShake = Camera.main.GetComponent<CameraShake>();
+			if (cameraShake != null)
+				cameraShake.StartShake();
 		}
 	}
 }
