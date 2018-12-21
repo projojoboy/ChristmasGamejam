@@ -8,7 +8,7 @@ public class LerpMoveTo : MonoBehaviour
 
 	private void Update()
 	{
-		Vector3 newPosition = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * moveSpeed);
+		Vector3 newPosition = Vector3.zero;
 		newPosition.x = (Constraints.FreezeX) ? transform.position.x : Mathf.Lerp(transform.position.x, targetPosition.x, Time.deltaTime * moveSpeed);
 		newPosition.y = (Constraints.FreezeY) ? transform.position.y : Mathf.Lerp(transform.position.y, targetPosition.y, Time.deltaTime * moveSpeed);
 		newPosition.z = (Constraints.FreezeZ) ? transform.position.z : Mathf.Lerp(transform.position.z, targetPosition.z, Time.deltaTime * moveSpeed);
