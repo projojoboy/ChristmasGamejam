@@ -29,7 +29,7 @@ Material:
         m_Offset: {x: 0, y: -1}
     m_Floats:
     - _Shininess: 0.078125
-    - _Snow: 0.7844783
+    - _Snow: 0.9343569
     - _SnowDepth: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

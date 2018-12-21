@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 8821869718489388091}
   - component: {fileID: 113432962400478545}
   - component: {fileID: 8915191807678754092}
+  - component: {fileID: 4999381817648977974}
+  - component: {fileID: 3444960555855681809}
   m_Layer: 0
   m_Name: Star
   m_TagString: CollectableObject
@@ -126,3 +128,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 4
+--- !u!114 &4999381817648977974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5131096437236727559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fe60aeadf3fe748a1caea1115686e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPosition: {x: 0, y: -4, z: 0}
+  timeToMove: 2
+  Constraints:
+    FreezeX: 1
+    FreezeY: 0
+    FreezeZ: 1
+--- !u!114 &3444960555855681809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5131096437236727559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5223ca5ccba4a4aafca9b5ffb6b64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyAudioObjectName: HitAudio
+  yPositionToDestroy: -4

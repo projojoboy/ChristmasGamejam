@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4322435984256048429}
   - component: {fileID: 5294911028335260934}
   - component: {fileID: 6003205911152931858}
+  - component: {fileID: 745200275091745349}
+  - component: {fileID: 6054945440229033011}
   m_Layer: 0
   m_Name: Present 1
   m_TagString: Untagged
@@ -92,3 +94,35 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 1cda905d0776c754199e04be35b19f35, type: 3}
+--- !u!114 &745200275091745349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3881476890447024736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5223ca5ccba4a4aafca9b5ffb6b64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyAudioObjectName: HitAudio
+  yPositionToDestroy: -4
+--- !u!114 &6054945440229033011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3881476890447024736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fe60aeadf3fe748a1caea1115686e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPosition: {x: 0, y: -4, z: 0}
+  timeToMove: 2
+  Constraints:
+    FreezeX: 1
+    FreezeY: 0
+    FreezeZ: 1

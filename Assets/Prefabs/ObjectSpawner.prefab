@@ -44,9 +44,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnableObjects:
-  - {fileID: 5814520505359085648, guid: a39d66956acc4ca439c4fc58c17e435a, type: 3}
+  - {fileID: 4663326047841810237, guid: f201f3e889a72d441a047b86dbd40c01, type: 3}
+  - {fileID: 5131096437236727559, guid: 17c560c92676a474ba5e59c71dd27ffc, type: 3}
+  - {fileID: 3881476890447024736, guid: 2835d325d54f2f149966574b4ff2799d, type: 3}
   - {fileID: 7223944477988178599, guid: 7c3f89576dca725428e719f2ff96048d, type: 3}
   - {fileID: 5292605504815794305, guid: 72556680ddceb5c4093e038ede36eeb5, type: 3}
-  - {fileID: 4663326047841810237, guid: f201f3e889a72d441a047b86dbd40c01, type: 3}
+  - {fileID: 8990172049369337827, guid: aca179855d5d8ef4fb882d335efed751, type: 3}
   minRange: -9
   maxRange: 9
