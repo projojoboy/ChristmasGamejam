@@ -11,18 +11,21 @@ public class SnowLevel : MonoBehaviour
 
     private float _snowDepth = 0;
 
-    public Material TargetMaterial => _targetMaterial;
+    public Material[] TargetMaterials;
     
     
     void Update()
     {
-        if (!TargetMaterial)
+        if (TargetMaterials.Length == 0)
         {
             return;
         }
 
         _snowDepth += Time.deltaTime * _speed;
 
-        TargetMaterial.SetFloat("_Snow", 1 - _snowDepth);
+        for (int i = 0; i < TargetMaterials.Length; i++)
+        {
+            TargetMaterials[i].SetFloat("_Snow", 1 - _snowDepth);
+        }
     }
 }

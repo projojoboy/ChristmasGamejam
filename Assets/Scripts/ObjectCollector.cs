@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class ObjectCollector : MonoBehaviour
 {
     public int curPoints;
     public int highscore;
+
+    [SerializeField] private Text scoreText;
 
     private void Start()
     {
@@ -22,6 +25,8 @@ public class ObjectCollector : MonoBehaviour
             //Destroy CollectableObject
             Destroy(coll.gameObject);
             //Add Lives?
+
+            scoreText.text = "Score: " + curPoints;
         }
     }
 

@@ -2,18 +2,45 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="PrimitivePlus" t="Include">
+          <e p="Documentation" t="Include">
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="PrimitivePlusMaterialEditor.cs" t="Include" />
+            <e p="PrimitivePlusMenuItems.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="PrimitivePlusConstants.cs" t="Include" />
+            <e p="PrimitivePlusMaterial.cs" t="Include" />
+            <e p="PrimitivePlusMeshes.cs" t="Include" />
+            <e p="PrimitivePlusObject.cs" t="Include" />
+            <e p="PrimitivePlusType.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
+          <e p="GyroscopeController.cs" t="Include" />
+          <e p="ObjectCollector.cs" t="Include" />
           <e p="PostProcessing" t="Include">
             <e p="SnowCamera.cs" t="Include" />
           </e>
-          <e p="Rythm.cs" t="Include" />
+          <e p="Rotate.cs" t="Include" />
+          <e p="Rythm" t="Include">
+            <e p="DestroyAtPosition.cs" t="Include" />
+            <e p="LerpMoveTo.cs" t="Include" />
+            <e p="Rythm.cs" t="Include" />
+          </e>
           <e p="Shaders" t="Include">
             <e p="Snow.shader" t="Include" />
             <e p="SnowLayer.shader" t="Include" />
           </e>
           <e p="SnowLevel.cs" t="Include" />
+          <e p="Spawner" t="Include">
+            <e p="ObjectSpawner.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="ChristmasGamejam.sln" t="IncludeFlat" />
