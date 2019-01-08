@@ -354,66 +354,6 @@ MonoBehaviour:
   startPos: {x: 0, y: 0, z: -10}
   shakeTime: 0.1
   shakeDuration: 1
---- !u!1 &484255116
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 484255117}
-  - component: {fileID: 484255119}
-  - component: {fileID: 484255118}
-  m_Layer: 0
-  m_Name: ObjectCollector
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &484255117
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484255116}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.12, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1225181641}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &484255118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484255116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 481bda758b46b8e4a893daca3a0193ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  curPoints: 0
-  highscore: 0
-  scoreText: {fileID: 1392764065}
---- !u!65 &484255119
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484255116}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 3, z: 5}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &752725570
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,12 +433,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1225181641 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7531509031719651766, guid: a58ad65468266b84581649aed2f986b5,
-    type: 3}
-  m_PrefabInstance: {fileID: 7531509032780354441}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1392764065 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3513840418422792028, guid: 20c2c7819397dd54fbfc6b95a0b7e27d,
@@ -832,5 +766,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 484255118, guid: a58ad65468266b84581649aed2f986b5, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1392764065}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a58ad65468266b84581649aed2f986b5, type: 3}

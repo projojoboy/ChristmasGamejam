@@ -89,7 +89,6 @@ GameObject:
   - component: {fileID: 6847753333930821204}
   - component: {fileID: 175180337559490338}
   - component: {fileID: 3276700641171353396}
-  - component: {fileID: 961756777022196282}
   - component: {fileID: 2622927996136142071}
   m_Layer: 0
   m_Name: Present
@@ -165,20 +164,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyAudioObjectName: HitAudio
   yPositionToDestroy: -4
---- !u!64 &961756777022196282
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7223944477988178599}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
 --- !u!65 &2622927996136142071
 BoxCollider:
   m_ObjectHideFlags: 0
